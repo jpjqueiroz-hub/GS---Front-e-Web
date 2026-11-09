@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Atkinson-Bold" ;
+  src: url("../public/fonts/AtkinsonHyperlegible-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../public/fonts/Inter_18pt-Light.ttf");
+}
+
+
+@theme {
+  --color-background: #102544;
+  --color-card: #193657;
+  --color-button: #294A70;
+  --color-light: #F8FAFC;
+  --color-yellow: #F5C542;
+  --color-light-blue: #91C7FF;
+  --font-inter: "Inter", sans-serif;
+  --font-atkinson: "Atkinson-Bold", sans-serif;
+  --text-title: clamp(1.5rem, 4vw + 1rem, 5rem);
+  --grid-template-columns-numbered-item: auto 1fr;
+}
+
+.hero-banner {
+  background-image: url("../public/images/banner-01.png");
+}
