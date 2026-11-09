@@ -1,14 +1,20 @@
 import Header from './components/Header'
 import Hero from './components/Hero'
 import Problema from './components/Problema'
+import Solucao from './components/Solucao'
 
-
-export default function App() {
-  return(
+function App() {
+  return (
     <>
       <Header />
-      <Hero />
-      <Problema />
-    </> 
-  ) 
+
+      <main>
+        <Hero />
+        <Problema />
+        <Solucao />
+      </main>
+    </>
+  )
 }
+
+export default App
