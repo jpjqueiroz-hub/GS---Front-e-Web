@@ -25,16 +25,6 @@ function ComoFunciona() {
 
           <PassoComoFunciona numero="03" titulo="Ouça as informações" descricao="A mensagem informa as linhas que passam no ponto, qual ônibus está se aproximando e a previsão de espera."/>
         </ol>
-
-        <div className="mt-8 flex flex-col items-start justify-between gap-6 md:flex-row md:items-center">
-          <p className="max-w-2xl text-lg leading-relaxed text-light/80">
-            No protótipo web, você poderá experimentar essa mensagem com linhas, aproximação e tempos de espera simulados.
-          </p>
-
-          <a href="#prototipo" className="inline-flex min-h-12 shrink-0 items-center justify-center gap-3 rounded-xl bg-yellow px-6 py-3 font-atkinson text-lg text-background hover:bg-yellow/90">
-            Experimentar o protótipo
-          </a>
-        </div>
       </div>
     </section>
   )
