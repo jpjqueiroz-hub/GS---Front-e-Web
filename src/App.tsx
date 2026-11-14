@@ -3,18 +3,17 @@ import Hero from './components/Hero'
 import Problema from './components/Problema'
 import Solucao from './components/Solucao'
 import ComoFunciona from './components/ComoFunciona'
+import Prototipo from './components/Prototipo'
 
 function App() {
   return (
     <>
-      <Header />
-
-      <main>
+        <Header />
         <Hero />
         <Problema />
         <Solucao />
         <ComoFunciona />
-      </main>
+        <Prototipo />
     </>
   )
 }
