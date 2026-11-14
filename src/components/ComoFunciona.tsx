@@ -19,7 +19,7 @@ function ComoFunciona() {
         </div>
 
         <ol className="grid gap-6 lg:grid-cols-3">
-          <PassoComoFunciona numero="01" titulo="Chegue ao ponto" descricao="O terminal fica instalado no próprio ponto, com um botão físico de reprodução identificado pelo tato." />
+          <PassoComoFunciona numero="01" titulo="Localize o terminal" descricao="Ao detectar uma aproximação, o terminal emite um sinal sonoro curto para indicar sua localização. Os botões têm identificação em braile e podem ser reconhecidos pelo tato."/>
 
           <PassoComoFunciona numero="02" titulo="Aperte o play" descricao="Pressione o botão para iniciar a mensagem. Não é necessário selecionar uma linha ou navegar por menus."/>
 
