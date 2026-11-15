@@ -37,7 +37,7 @@ function Prototipo() {
               </ul>
   
               <a href="/prototipo-web" className="mt-auto inline-flex min-h-12 items-center justify-center gap-3 rounded-xl bg-yellow px-6 py-3 font-atkinson text-lg text-background hover:bg-yellow/90">
-                Explorar versão web
+                Explorar versão digital
               </a>
             </div>
   

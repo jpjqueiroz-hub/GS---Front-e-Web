@@ -4,8 +4,12 @@ import Problema from './components/Problema'
 import Solucao from './components/Solucao'
 import ComoFunciona from './components/ComoFunciona'
 import Prototipo from './components/Prototipo'
+import PrototipoWeb from './pages/PrototipoWeb'
 
 function App() {
+  if (window.location.pathname === '/prototipo-web') {
+    return <PrototipoWeb />
+  }
   return (
     <>
         <Header />

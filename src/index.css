@@ -10,6 +10,12 @@
   src: url("../public/fonts/Inter_18pt-Light.ttf");
 }
 
+@layer base {
+  :focus-visible {
+    @apply outline-2 outline-offset-4 outline-yellow;
+  }
+}
+
 
 @theme {
   --color-background: #102544;
