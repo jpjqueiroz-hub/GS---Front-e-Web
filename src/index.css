@@ -27,7 +27,6 @@
   --font-inter: "Inter", sans-serif;
   --font-atkinson: "Atkinson-Bold", sans-serif;
   --text-title: clamp(1.5rem, 4vw + 1rem, 5rem);
-  --grid-template-columns-numbered-item: auto 1fr;
 }
 
 .hero-banner {
