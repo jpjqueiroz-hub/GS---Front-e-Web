@@ -62,11 +62,15 @@ export async function atualizarLinha(id: string, dados: DadosLinha): Promise<Lin
 }
 
 export async function excluirLinha(id: string): Promise<void> {
-  const resposta = await fetch(`${enderecoAPI}/${encodeURIComponent(id)}`, {
+  if (id === undefined || id === null || String(id).trim() === '') {
+    throw new Error('Esta linha está sem ID. Confira o registro no MockAPI.')
+  }
+
+  const resposta = await fetch(`${enderecoAPI}/${encodeURIComponent(String(id))}`, {
     method: 'DELETE',
   })
 
   if (!resposta.ok) {
-    throw new Error('Não foi possível excluir a linha.')
+    throw new Error(`Não foi possível excluir a linha de ID ${id}. Código HTTP: ${resposta.status}.`)
   }
 }

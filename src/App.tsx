@@ -5,10 +5,14 @@ import Solucao from './components/Solucao'
 import ComoFunciona from './components/ComoFunciona'
 import Prototipo from './components/Prototipo'
 import PrototipoWeb from './pages/PrototipoWeb'
+import Administracao from './pages/Administracao'
 
 function App() {
   if (window.location.pathname === '/prototipo-web') {
     return <PrototipoWeb />
+  }
+  if (window.location.pathname === '/administracao') {
+    return <Administracao />
   }
   return (
     <>

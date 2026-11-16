@@ -39,6 +39,9 @@ function Header() {
             <a href="#como-funciona" onClick={fecharMenu} className="rounded-lg py-3 text-light hover:text-yellow">
                 Como funciona
             </a>
+            <a href="/administracao" onClick={fecharMenu} className="rounded-lg py-3 text-light hover:text-yellow">
+              Painel Administrativo
+            </a>
             <a href="#prototipo" onClick={fecharMenu} className="inline-flex min-h-12 items-center justify-center gap-3 rounded-xl bg-yellow px-6 py-3 font-atkinson text-background hover:bg-yellow/90">
                 Experimentar
             </a>
