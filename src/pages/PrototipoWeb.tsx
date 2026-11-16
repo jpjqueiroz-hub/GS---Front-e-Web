@@ -77,6 +77,12 @@ function PrototipoWeb() {
             Parar áudio
           </button>
 
+          <p role="status" className="mt-4 text-base leading-relaxed text-light/80">
+            {!disponivel
+              ? 'Leitura por voz indisponível neste navegador. Consulte as informações em texto abaixo.'
+              : erroAudio || (reproduzindo ? 'Reproduzindo informações.' : 'Áudio parado.')}
+          </p>
+
           {consultaDisponivel && (
             <div className="mt-9 border-t border-light/15 pt-8">
               <h3 className="mb-5 font-atkinson text-xl text-light">
