@@ -25,18 +25,20 @@ O apoio incluiu a montagem das mensagens faladas, os controles de reprodução, 
 
 A IA também ajudou a configuração do recurso de linhas no MockAPI e auxiliou na implementação do serviço de comunicação e do hook `useLinhas`.
 
-Antes da adoção do MockAPI, houve uma tentamos integrar uma IA própria da SPTrans. Porém por algum motivo não estava funcionando então decidimos fazer com MockAPI, utilizando dados ficticios.
+Antes da adoção do MockAPI, tentamos integrar uma API própria da SPTrans, que é capaz de fornecer dados reais sobre ônibus. Porém por algum motivo não estava funcionando então decidimos fazer com MockAPI, utilizando dados ficticios.
 
 ## Exemplos de interações
 
 Entre as solicitações realizadas durante o desenvolvimento estão:
 
+- Sugerir melhorias para deixar o site mais acessível
 - Explicação do uso de `aria-label`.
 - Implementação de foco visível para navegação por teclado.
+- Criação das imagens utilizadas no site
 - Criação da consulta por voz.
-- Conexão do protótipo com o MockAPI.
-- Implementação das operações de CRUD.
-- Simplificação dos formulários para utilizar recursos estudados em aula.
+- Na sugestão de qual API utilizar
+- Ajuda na conexão do protótipo com o MockAPI.
+- Ajuda em alguns problemas em relação da implementação das operações de CRUD.
 
 ## Análise crítica
 

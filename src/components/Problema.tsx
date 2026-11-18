@@ -2,7 +2,7 @@ import CardProblema from './CardProblema'
 
 function Problema() {
   return (
-    <section id="problema" aria-labelledby="titulo-problema" className="min-h-screen border-y border-light/10 bg-card/90 py-16 md:py-20">
+    <section id="problema" aria-labelledby="titulo-problema" className="min-h-screen  bg-card/90 py-16 md:py-20">
       <div className="mx-auto grid w-full items-center gap-12 px-6 lg:grid-cols-2 lg:px-10">
         <div className="max-w-3xl">
           <div className="mb-10 max-w-2xl">

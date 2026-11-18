@@ -2,8 +2,8 @@ import PassoComoFunciona from './PassoComoFunciona'
 
 function ComoFunciona() {
   return (
-    <section id="como-funciona" aria-labelledby="titulo-como-funciona" className="flex min-h-screen items-center border-y border-light/10 bg-card/90 py-16 md:py-20">
-      <div className="mx-auto w-full max-w-7xl px-6 lg:px-10">
+    <section id="como-funciona" aria-labelledby="titulo-como-funciona" className="flex min-h-screen items-center  bg-card/90 py-16 md:py-20">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="mb-10 max-w-2xl">
           <p className="mb-3 font-atkinson text-sm tracking-widest text-yellow">
             COMO FUNCIONA

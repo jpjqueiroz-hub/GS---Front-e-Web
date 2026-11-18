@@ -23,7 +23,7 @@ function Login({ aoEntrar }: LoginProps) {
   }
 
   return (
-    <section aria-labelledby="titulo-login" className="mx-auto w-full max-w-md rounded-3xl border border-light/15 bg-card p-7 md:p-9">
+    <section aria-labelledby="titulo-login" className="mx-auto max-w-md rounded-3xl border border-light/15 bg-card p-7 md:p-9">
       <p className="mb-3 font-atkinson text-sm tracking-widest text-yellow">
         ACESSO DO ADMINISTRADOR
       </p>

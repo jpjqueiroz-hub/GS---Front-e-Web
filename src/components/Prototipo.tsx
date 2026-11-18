@@ -1,7 +1,7 @@
 function Prototipo() {
   return (
     <section id="prototipo" aria-labelledby="titulo-prototipo" className="flex min-h-screen items-center bg-background py-16 md:py-20">
-      <div className="mx-auto w-full max-w-7xl px-6 lg:px-10">
+      <div className="mx-auto max-w-7xl px-6 lg:px-10">
         <div className="mb-10 max-w-2xl">
           <p className="mb-3 font-atkinson text-sm tracking-widest text-yellow">
             EXPERIMENTE O MEUPONTO
@@ -50,7 +50,7 @@ function Prototipo() {
               </li>
             </ul>
 
-            <a href="/prototipo-web" className="inline-flex min-h-12 w-full items-center justify-center gap-3 rounded-xl bg-yellow px-6 py-3 font-atkinson text-lg text-background hover:bg-yellow/90">
+            <a href="/prototipo-web" className="flex min-h-12 w-full items-center justify-center gap-3 rounded-xl bg-yellow px-6 py-3 font-atkinson text-lg text-background hover:bg-yellow/90">
               Explorar protótipo digital
             </a>
           </div>
